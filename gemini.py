@@ -5,7 +5,7 @@ import json
 
 
 os.environ["GEMINI_API_KEY"] = KEY.GKEY
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+genai.configure(api_key="AIzaSyCdbmmF5GN2nRrZcYpb-KM1ll9yUkvn9ec")
 
 
 
@@ -88,4 +88,3 @@ def res(input):
   
    
   return model_response
-

@@ -3,6 +3,7 @@ import discord
 from discord.ext import commands
 import asyncio
 import KEY
+import gemini
 import google.generativeai as genai
 import random
 
