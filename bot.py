@@ -63,7 +63,7 @@ async def on_message(message: discord.Message):
         elif msg_type == "happy":
             emoji = random.choice(["\U0001F60F", "\U0001F633", "\U0001F975", "\U0001F4A6"])  
         elif msg_type == "neutral":
-            emoji = random.choice(["\U0001F6B6", "\U0001F468\u200D\U0001F9AF"]) 
+            return 
 
         await message.add_reaction(emoji)
         await asyncio.sleep(3)
