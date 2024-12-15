@@ -5,7 +5,7 @@ import json
 
 
 os.environ["GEMINI_API_KEY"] = KEY.GKEY
-genai.configure(api_key="AIzaSyCdbmmF5GN2nRrZcYpb-KM1ll9yUkvn9ec")
+genai.configure(api_key=KEY.GKEY)
 
 
 
